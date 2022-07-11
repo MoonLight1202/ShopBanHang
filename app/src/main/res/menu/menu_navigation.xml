@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/nav_home_icon"
+            android:title="@string/nav_home" />
+        <item
+            android:id="@+id/nav_phone"
+            android:icon="@drawable/nav_smartphone_icon"
+            android:title="@string/nav_phone" />
+        <item
+            android:id="@+id/nav_laptop"
+            android:icon="@drawable/nav_laptop_icon"
+            android:title="@string/nav_laptop" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/nav_contact_icon"
+            android:title="@string/nav_contact" />
+    </group>
+    <item android:title="Quản lý">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/nav_profile_icon"
+                android:title="@string/nav_profile" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ShopBanHang</string>
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_phone">Điện thoại</string>
+    <string name="nav_laptop">Máy tính</string>
+    <string name="nav_contact">Liên hệ</string>
+    <string name="nav_profile">Thông tin</string>
+    <string name="nav_drawer_open">Open Navigation Drawer</string>
+    <string name="nav_drawer_close">CLose Navigation Drawer</string>
+
+
+</resources>

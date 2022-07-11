@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/linebackground">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imgPhoto_Payment"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/txtNameRecyclePayment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tên sản phẩm"
+                android:textStyle="bold|italic"
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/txtPriceRecyclePayment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Giá bán: "
+                android:textColor="#3F51B5"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/txtQuantilyRecyclePayment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Số lượng:"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

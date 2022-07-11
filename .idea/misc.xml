@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.325" />
+        <entry key="app/src/main/res/drawable/bg_indicator.xml" value="0.2055" />
+        <entry key="app/src/main/res/drawable/ic_add.xml" value="0.237" />
+        <entry key="app/src/main/res/drawable/ic_add_to_cart.xml" value="0.237" />
+        <entry key="app/src/main/res/drawable/ic_cart.xml" value="0.237" />
+        <entry key="app/src/main/res/drawable/ic_minus.xml" value="0.237" />
+        <entry key="app/src/main/res/drawable/linebackground.xml" value="0.14132385253906252" />
+        <entry key="app/src/main/res/drawable/orange_border_rounded_cornwe.xml" value="0.237" />
+        <entry key="app/src/main/res/drawable/orange_fill__rounded_color.xml" value="0.237" />
+        <entry key="app/src/main/res/drawable/shadow.xml" value="0.237" />
+        <entry key="app/src/main/res/layout/activity_cart.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_info_payment.xml" value="0.280078125" />
+        <entry key="app/src/main/res/layout/activity_info_product.xml" value="0.15762939453125" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.23498128255208334" />
+        <entry key="app/src/main/res/layout/activity_payment.xml" value="0.2588444492273163" />
+        <entry key="app/src/main/res/layout/bottom_sheet_addtocart.xml" value="0.19166666666666668" />
+        <entry key="app/src/main/res/layout/bottom_sheet_buy.xml" value="0.1692982456140351" />
+        <entry key="app/src/main/res/layout/dong_produc.xml" value="0.19166666666666668" />
+        <entry key="app/src/main/res/layout/dong_recycleview_product.xml" value="0.20256296793619788" />
+        <entry key="app/src/main/res/layout/fragment_contact.xml" value="0.359375" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.2817626953125" />
+        <entry key="app/src/main/res/layout/fragment_laptop.xml" value="0.359375" />
+        <entry key="app/src/main/res/layout/fragment_phone.xml" value="0.359375" />
+        <entry key="app/src/main/res/layout/fragment_photo.xml" value="0.18103790283203122" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.19379425048828125" />
+        <entry key="app/src/main/res/layout/item_photo.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/layout_content_info.xml" value="0.19166666666666668" />
+        <entry key="app/src/main/res/layout/layout_header_navigation.xml" value="0.18259328206380204" />
+        <entry key="app/src/main/res/layout/line_recycleview_payment.xml" value="0.31491228070175437" />
+        <entry key="app/src/main/res/menu/menu_bottom_navigation.xml" value="0.33541666666666664" />
+        <entry key="app/src/main/res/menu/menu_cart.xml" value="0.3880208333333333" />
+        <entry key="app/src/main/res/menu/menu_navigation.xml" value="0.3880208333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

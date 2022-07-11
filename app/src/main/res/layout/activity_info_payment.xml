@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".payment.PaymentActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarInfoPayment"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/orange"
+        android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:navigationIcon="@drawable/ic_back"
+        app:title="Thông tin giao hàng"/>
+    <LinearLayout
+        android:weightSum="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_weight="0.99"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical">
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Liên hệ"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Họ tên"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="SĐT"/>
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Địa chỉ"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nhập địa chỉ cụ thể"/>
+            <LinearLayout
+                android:weightSum="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_weight="0.5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Loại địa chỉ:"
+                    android:layout_marginRight="50dp"/>
+                <Button
+                    android:layout_weight="0.25"
+                    android:textSize="10sp"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:text="Nhà riêng"
+                    android:background="@drawable/orange_border_rounded_cornwe"/>
+                <Button
+                    android:layout_weight="0.25"
+                    android:textSize="10sp"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:text="Văn phòng"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:layout_weight="0.01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hoàn Thành"
+            android:background="@color/orange"
+            android:layout_gravity="end"/>
+    </LinearLayout>
+
+</LinearLayout>

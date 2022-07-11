@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical">
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="0dp"
+             android:layout_weight="0.15">
+
+             <androidx.viewpager2.widget.ViewPager2
+                 android:id="@+id/view_pager2"
+                 android:layout_width="match_parent"
+                 android:layout_height="100dp" />
+
+             <me.relex.circleindicator.CircleIndicator3
+                 android:id="@+id/cir_indicator3"
+                 android:layout_width="wrap_content"
+                 android:layout_height="40dp"
+                 android:layout_alignParentBottom="true"
+                 android:layout_centerInParent="true"
+                 android:layout_margin="5dp"
+                 app:ci_drawable="@drawable/bg_indicator" />
+         </RelativeLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical">
+
+             <RelativeLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent">
+
+                 <TextView
+                     android:id="@+id/txtSPNew"
+                     android:layout_width="wrap_content"
+                     android:layout_height="30dp"
+                     android:layout_marginStart="5dp"
+                     android:layout_marginTop="5dp"
+                     android:layout_marginBottom="5dp"
+                     android:text="Sản phẩm mới nhất"
+                     android:textColor="#DA0C0C"
+                     android:textSize="20sp"
+                     android:textStyle="bold|italic" />
+
+                 <pl.droidsonroids.gif.GifImageView
+                     android:id="@+id/gifNewImage"
+                     android:layout_width="35dp"
+                     android:layout_height="25dp"
+                     android:layout_marginLeft="10dp"
+                     android:layout_marginTop="10dp"
+                     android:layout_toEndOf="@+id/txtSPNew" />
+             </RelativeLayout>
+
+             <androidx.recyclerview.widget.RecyclerView
+                 android:id="@+id/recycleViewSP"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:layout_marginTop="5dp"
+                 android:background="#4FFF5722"
+                 android:nestedScrollingEnabled="false" />
+             <TextView
+                 android:layout_width="match_parent"
+                 android:textStyle="bold"
+                 android:textSize="30sp"
+                 android:textColor="#DC3C0A"
+                 android:layout_height="wrap_content"
+                 android:text="Điện thoại nổi bật nhất"/>
+             <androidx.recyclerview.widget.RecyclerView
+                 android:id="@+id/recycleView2"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:layout_marginTop="5dp"
+                 android:background="#4FFF5722"
+                 android:nestedScrollingEnabled="false" />
+         </LinearLayout>
+     </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>
